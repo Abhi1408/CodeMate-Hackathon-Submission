@@ -1,0 +1,52 @@
+Hackathon Guidelines & Information Document 
+Event Overview 
+A Hackathon will be conducted on 20th September and 21st September. The event is designed to 
+assess creativity, technical skills, and problem-solving abilities while providing participants with 
+practical exposure to building projects using CodeMate Build and the CodeMate Extension. 
+The use of these specified AI tools is mandatory. This requirement is intended to evaluate the 
+efficiency, adaptability, and understanding of students in applying AI tools during project 
+development. 
+Phases of the Hackathon 
+Phase 1: Problem Statement and Project Development 
+1. At the start of the hackathon, participants will be provided with three problem statements. 
+2. Each participant must select one problem statement to work on. 
+3. All participants are required to: 
+o Create an account on CodeMate for Education via the official platform link: 
+https://edu.codemate.ai/ 
+o Join the respective classroom on CodeMate where the project assignments will be 
+available. 
+o Access the chosen project assignment and begin working on it using CodeMate 
+Build and the CodeMate Extension. 
+Submission Requirements 
+Participants must submit the following: 
+• Upload the entire Codebase on CodeMate IDE (Excluding node modules if in the project) 
+• A live working video demonstrating the project 
+• A live hosted URL of the project 
+• A GitHub repository link containing the complete source code 
+Phase 2: Evaluation and Shortlisting 
+1. Submissions will be evaluated based on: 
+o Functionality 
+o Innovation 
+o Code quality 
+o Problem-solving approach 
+o Effective use of the mandatory AI tools 
+2. Shortlisted participants will be notified and invited for the interview round. 
+Phase 3: Interview and Offers 
+1. Shortlisted students will appear for an interview conducted by the evaluation panel. 
+2. Students who successfully clear the interview round will be issued offer letters. 
+Important Dates 
+• Hackathon Dates: 20th September & 21st September 
+• Submission Deadline: 24 hours. 
+• Interview Round: 22nd September. 
+Key Instructions 
+• Registration on CodeMate for Education is compulsory. Platform Link: 
+https://edu.codemate.ai/ 
+• All submissions must include the required deliverables: source code, video, hosted URL, and 
+GitHub repository. 
+• Projects must demonstrate the use of CodeMate Build and the CodeMate Extension. 
+• Late or incomplete submissions may not be considered for evaluation. 
+• Participants must maintain originality and follow ethical coding practices. 
+Outcome 
+The hackathon is a platform to showcase coding skills and problem-solving abilities. Students who 
+successfully complete all phases and clear the interview will be issued official offer letters from 
+CodeMate. 
