@@ -1,0 +1,116 @@
+📚 Deep Researcher Agent
+
+An AI-powered local research assistant that can ingest documents, generate embeddings, retrieve relevant chunks, reason over queries, and synthesize concise answers — all without external APIs.
+
+🚀 Hosted Demo: https://appapppy-ajgfqs7wrdhmpqjcwsteo6.streamlit.app/
+
+✨ Features
+
+🔍 Local Embeddings
+Uses SentenceTransformers (if available) or TF-IDF fallback for lightweight vector search.
+
+📝 Multi-File Ingestion
+Supports .txt, .md, .pdf, and .docx. Upload documents and instantly build an index.
+
+🧩 Chunking + Indexing
+Splits long documents into overlapping word chunks for efficient retrieval.
+
+🧠 Multi-Step Reasoning
+Complex queries are decomposed into sub-queries with transparent reasoning traces.
+
+📑 Synthesis & Citations
+Extractive summarization of top chunks, with confidence scores and file-based citations.
+
+📤 Export Reports
+Download answers + reasoning as structured Markdown files.
+
+💡 Interactive UI
+Built with Streamlit — intuitive, upload files, ask questions, refine queries.
+
+🖼️ Demo Screenshot
+
+(Add a screenshot of your Streamlit app here)
+
+🛠️ Tech Stack
+
+Python 3.11+
+
+Streamlit
+
+scikit-learn
+ (TF-IDF, NearestNeighbors)
+
+SentenceTransformers
+ (semantic embeddings)
+
+pdfplumber
+ (PDF text extraction)
+
+python-docx
+ (Word file support)
+
+📂 Project Structure
+deep_researcher_agent/
+│
+├── main.py                # CLI entry point
+├── streamlit_app.py       # Streamlit entry point (for hosting)
+├── requirements.txt       # dependencies
+├── data/                  # sample docs + uploaded files
+│   └── uploads/           # user-uploaded docs (ephemeral in cloud)
+├── exports/               # embeddings + metadata (rebuilt each run)
+└── src/
+    ├── ingest_and_chunk.py    # ingestion + chunking
+    ├── embed_index.py         # embeddings + index
+    ├── retrieve.py            # retrieval wrapper
+    ├── reasoning.py           # query decomposition
+    ├── synthesize.py          # summarization + export
+    └── app_streamlit.py       # Streamlit UI
+
+⚡ Quick Start (Local)
+# 1. Clone repo
+git clone https://github.com/your-username/deep-researcher-agent.git
+cd deep-researcher-agent
+
+# 2. Create virtual env
+python -m venv venv
+venv\Scripts\activate   # (Windows)
+# or source venv/bin/activate (Linux/Mac)
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Run Streamlit UI
+streamlit run src/app_streamlit.py
+
+# 5. (Optional) Run CLI
+python main.py
+
+🚀 Deploy (Streamlit Cloud)
+
+Fork this repo.
+
+Connect to Streamlit Cloud
+.
+
+Deploy streamlit_app.py as the entry point.
+
+App builds automatically on each commit.
+
+📈 Future Enhancements
+
+Clustering of retrieved chunks
+
+Visualization of embedding space
+
+Multi-doc comparative analysis
+
+Persistent external storage for uploads
+
+🏆 Hackathon Notes
+
+This project was built for the CodeMate Hackathon under the “Deep Researcher Agent” track.
+Key challenge: perform research-style document retrieval and reasoning using only local embeddings.
+
+👨‍💻 Authors
+Abhi Govil 
+RA2211003011493
